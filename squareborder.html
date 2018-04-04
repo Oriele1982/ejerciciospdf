@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bordes cuadrado</title>
+	<link rel="stylesheet" href="">
+	<style>
+		div{
+			width: 300px;
+			height: 300px;
+			display: inline-block;
+			background-color: yellow;
+		}
+
+		.solid{
+			border: 5px solid red;
+		}
+		
+		.inset{
+			border: 5px inset red;
+		}
+		.dotted{
+			border:5px dotted red;
+		}
+
+		.dashedsolid{
+			border: 5px red;
+			border-style: dashed solid;
+		}
+		
+		.dasheddouble{
+			border: 5px red;
+			border-style: dashed double none;
+		}
+		.dashedgroove{
+			border:5px red;
+			border-style: dashed groove none dotted;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="solid"></div>
+	<div class="inset"></div>
+	<div class="dotted"></div>
+	<div class="dashedsolid"></div>
+	<div class="dasheddouble"></div>
+	<div class="dashedgroove"></div>
+
+</body>
+</html>
