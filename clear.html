@@ -5,46 +5,43 @@
 	<title>Clear</title>
 	<style>
 		div, .yellow .green .blue{
-			width: 25%;
+			width: 30%;
 			height: 200px;
 		}
 
 		.yellow{
 			background-color: yellow;
-			display: inline-block;
 			margin: 0;
+			display: inline-block;
 			float: left;
+			clear: left;
 		}
 
+		.letter, .letter3{
+			float: left;
+			display: inline-block;
+			padding: 3px;
+		}
 		.green{
 			background-color: green;
 			float: left;
 			display: inline-block;
 		}
-
+		
+		.letter2{
+			width: 100%;
+			float: left;
+			display: inline;
+		}
 		.blue{
 			background-color: blue;
 			float: left;
-			display:block;
-		}
-
-		.letter{
-			width: 50%;
-			height: 200px;
 			display: inline-block;
-			text-align: justify;
-			border: 2px;
-			float: left;
-			margin:0;
+			clear: left;
 		}
 
-		.letter2 p{
-			width: 100%;
-			height: 70px;
-			display: block;
-			text-align: justify;
 
-		}
+	
 	</style>
 </head>
 <body>
@@ -54,11 +51,11 @@
 	</div>
 	<div class="green"></div>
 	<div class="letter2">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae natus obcaecati, atque iusto, unde! Inventore quod distinctio asperiores placeat natus iste alias, ab commodi, expedita cupiditate at! Harum, non.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae natus obcaecati, atque iusto, unde! Inventore quod distinctio asperiores placeat natus iste alias, ab commodi, expedita cupiditate at! Harum, non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est rem debitis similique veritatis neque eaque accusantium pariatur, repellendus quae architecto voluptatibus ullam, mollitia nostrum. Dolores placeat ab quam mollitia voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa saepe, dolor at dolorum. Cum omnis temporibus voluptates necessitatibus repudiandae excepturi quia, expedita provident corporis est, ab ut et pariatur.</p>
 	</div>
 	<div class="blue"></div>
 	<div class="letter3">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima eum perspiciatis, fuga velit distinctio quis vitae quidem tenetur officia assumenda quam sint, dolore esse vero explicabo, numquam et, quaerat!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima eum perspiciatis, fuga velit distinctio quis vitae quidem tenetur officia assumenda quam sint, dolore esse vero explicabo, numquam et, quaerat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error esse nobis quisquam sint odio, qui inventore sunt vel eum, velit nostrum officia laborum cumque, ipsam. Laborum et error eaque adipisci! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	</div>
 </body>
 </html>
